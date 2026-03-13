@@ -1,0 +1,7 @@
+tensorflow==2.13.0
+streamlit
+pillow
+requests
+numpy
+scikit-learn
+google-generativeai
