@@ -1,14 +1,14 @@
 import os
 
 # ── Gemini ──────────────────────────────────────────────────────────────────────
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyAnwilSHYRPe-RHKJkSiEhSIN80_gwqQS0")
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 GEMINI_TIMEOUT = 20
 GEMINI_MAX_TOKENS = 1024
 GEMINI_TEMPERATURE = 0.3
 
 # ── Model ───────────────────────────────────────────────────────────────────────
-MODEL_PATH = "crop_model.h5"          # path to your trained EfficientNet model
+MODEL_PATH = "checkpoint.pth"          # path to your trained EfficientNet model
 CLASS_NAMES_PATH = "classes.txt"      # optional: one class name per line
 IMG_SIZE = (224, 224)
 TOP_K = 3                             # how many top predictions to show
